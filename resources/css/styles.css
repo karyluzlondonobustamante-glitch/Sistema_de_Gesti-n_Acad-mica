@@ -1,0 +1,104 @@
+/* Fondo general de la página */
+body {
+    background-color: #F4F1EA;
+    color: #4A3E3D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Menú de navegación superior */
+.menu-navegacion {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.menu-navegacion a {
+    color: #4A3E3D;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.menu-navegacion a:hover {
+    text-decoration: underline;
+}
+
+/* Tarjeta del Formulario (Fondo Crema Claro) */
+.contenedor-formulario {
+    max-width: 400px;
+    width: 100%;
+    background-color: #FDFBF7;
+    border: 1px solid #E6DFD3;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.contenedor-formulario h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #5A4D4A;
+    margin-top: 0;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #E6DFD3;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+/* Separación de cada campo */
+.grupo-campo {
+    margin-bottom: 20px;
+}
+
+.grupo-campo label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+/* Cajas de texto: Blanco puro con bordes terracota suave */
+.grupo-campo input {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #D98A6C;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 15px;
+    color: #4A3E3D;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+.grupo-campo input:focus {
+    border-color: #D98A6C;
+    box-shadow: 0 0 0 3px rgba(217, 138, 108, 0.25);
+}
+
+/* Botón de acción: Verde salvia */
+.btn-guardar {
+    width: 100%;
+    background-color: #87A987;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+}
+
+.btn-guardar:hover {
+    background-color: #769776;
+}
